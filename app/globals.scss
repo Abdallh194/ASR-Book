@@ -1,0 +1,96 @@
+@import "bootstrap/dist/css/bootstrap.css"; //bootstrap
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap"); //main font
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital@1&display=swap"); //header font
+@import url("https://fonts.googleapis.com/css2?family=Vibes&display=swap"); //sign font
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
+//vars
+
+$cairo-font: "Cairo";
+$sign-font: "Vibes";
+$main-font: "Cairo";
+$header-font: "Kufam";
+$dark-color: #3d464d;
+$gold-color: #ffd333;
+$blue-color: #45a7ff;
+* {
+  font-family: $main-font;
+  text-decoration: none !important;
+}
+@import "_Styles/Navbar";
+@import "_Styles/HomePage";
+@import "_Styles/About";
+@import "_Styles/Footer";
+@import "_Styles/Login";
+@import "_Styles/Shop";
+@import "_Styles/Categoris";
+@import "_Styles/ShowBook";
+@import "_Styles/AboutShop";
+@import "_Styles/Cart";
+@import "_Styles/BillDetails";
+@import "_Styles/SignUp";
+@import "_Styles/CheckOut";
+@import "_Styles/Stories";
+
+html {
+  font-family: $cairo-font;
+  font-weight: 400;
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+// Solve the problem of padding when the model opens
+body {
+  padding-right: 0px !important;
+}
+// Glbal Classes
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.logo {
+  .pt_01,
+  .pt_02 {
+    padding: 10px;
+    font-size: 31px;
+  }
+  .pt_01 {
+    padding-left: 5px;
+    background-color: $dark-color;
+    color: $gold-color;
+  }
+  .pt_02 {
+    padding-right: 5px;
+    background-color: $gold-color;
+    color: $dark-color;
+  }
+}
+// .owl-carousel {
+//   width: 97% !important;
+// }
+// .owl-theme .owl-nav {
+//   button.owl-next {
+//     position: absolute;
+//     right: 0;
+//     color: white !important;
+//     font-size: 40px !important;
+//     top: 35%;
+//     right: -21px;
+//   }
+//   button.owl-prev {
+//     position: absolute;
+//     left: -34px;
+//     color: white !important;
+//     font-size: 40px !important;
+//     top: 35%;
+//     @media (max-width: 767px) {
+//       left: -24px;
+//     }
+//   }
+// }

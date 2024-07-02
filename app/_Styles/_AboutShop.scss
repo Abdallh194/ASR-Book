@@ -1,0 +1,54 @@
+.AboutShop {
+  margin-top: 70px;
+  .AboutShop-Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .head {
+      color: white;
+      font-size: 30px;
+    }
+    .desc {
+      color: rgba(255, 255, 255, 0.653);
+      margin-top: 15px;
+    }
+    .more {
+      padding: 10px;
+      cursor: pointer;
+      border: 1px solid white;
+      width: 250px;
+      color: white;
+      margin: 20px auto;
+    }
+  }
+  .RedBook {
+    background: url("/redBook.jpg");
+    padding: 90px 20px;
+    background-size: cover;
+  }
+
+  .OfferCard1 {
+    background: url("/shop_header_01.jpg");
+  }
+  .OfferCard2 {
+    background: url("/shop_header_02.jpg");
+    margin-top: 15px;
+  }
+  .OfferCard1,
+  .OfferCard2 {
+    background-size: cover;
+    width: 100%;
+    padding: 15px 0;
+  }
+  @media (max-width: 992px) {
+    .OfferCards {
+      padding: 0;
+    }
+    .OfferCard2 {
+      margin-top: 0;
+    }
+  }
+}

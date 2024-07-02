@@ -1,0 +1,23 @@
+.navbar {
+  background-color: white !important;
+  padding: 30px 0 !important;
+
+  .links {
+    a {
+      margin: 0 13px;
+      color: #333;
+    }
+  }
+  .avatar {
+    margin-top: -9px;
+    margin-right: 13px;
+  }
+  @media (max-width: 767px) {
+    .logo {
+      .pt_01,
+      .pt_02 {
+        font-size: 22px;
+      }
+    }
+  }
+}

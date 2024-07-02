@@ -1,0 +1,26 @@
+.Cart {
+  padding: 30px 0;
+  .container {
+    max-width: 1500px;
+  }
+  .head {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: $header-font;
+  }
+  .CartDetails {
+    text-align: center;
+    .Headers {
+      background-color: $gold-color;
+      padding: 10px 0;
+    }
+    .BookDetails {
+      background-color: $dark-color;
+      align-items: center;
+      color: white;
+      padding: 10px 0;
+      border-top: 1px solid whitesmoke;
+    }
+  }
+}
