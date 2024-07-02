@@ -81,7 +81,7 @@ const Cart = () => {
             </Col>
             <Col xs={12} sm={12} md={12} lg={4} className="BillDetails">
               <BillDetails BookCart={BookCart} />
-              Bill Details
+
               <div
                 className="submit"
                 onClick={() => {
